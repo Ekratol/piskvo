@@ -71,7 +71,10 @@ const phase=game.phase||'waiting';let remaining=Number(game.remainingMs||0);
 if(phase==='active'&&!game.pausedAt)remaining=Math.max(0,Number(game.durationMs||0)-(Date.now()-Number(game.startedAt||Date.now())));
 $('timerDisplay').textContent=phase==='active'?`Čas: ${Math.ceil(remaining/1000)} s`:(phase==='paused'?`Pozastaveno — zbývá ${Math.ceil(remaining/1000)} s`:phase==='reveal'?'Vyhodnocení odpovědi…':'Čas: —');
 $('answerReveal').classList.toggle('hidden',phase!=='reveal');
-$('answerReveal').textContent=phase==='reveal'?`Správná odpověď: ${(game.question?.answers||[]).join(' / ')}`:'';
+$('answerReveal').classList.toggle('answer-correct',phase==='reveal');
+$('answerReveal').textContent=phase==='reveal'
+  ?`Správná odpověď: ${(game.question?.answers||[]).join(' / ')}`
+  :'';
 $('answer').disabled=!!game.answered?.[uid]||!game.question||game.finished||phase!=='active';
 $('submitAnswer').disabled=$('answer').disabled;
 if(isTeacher){$('startGame').textContent=game.started?'Hra spuštěna':'Start hry';$('startGame').disabled=!!game.started&&!game.finished;$('pauseGame').textContent=phase==='paused'?'Pokračovat':'Pauza';$('pauseGame').disabled=!game.started||game.finished||phase==='reveal';}
