@@ -1,0 +1,60 @@
+Kolik kostí má dospělý člověk?;206
+Jak se nazývá kostra hlavy?;lebka
+Jaká kost chrání mozek?;lebka
+Jak se nazývá dolní čelist?;mandibula|dolní čelist
+Jak se nazývá horní čelist?;maxilla|horní čelist
+Která kost tvoří čelo?;čelní kost
+Jak se nazývá kost v zadní části lebky?;týlní kost
+Jak se nazývá kost na temeni hlavy?;temenní kost
+Jak se nazývá kost po straně lebky u ucha?;spánková kost
+Jak se nazývá páteřní část tvořená krčními obratli?;krční páteř
+Kolik krčních obratlů má člověk?;7
+Jak se nazývá první krční obratel?;atlas
+Jak se nazývá druhý krční obratel?;čepovec
+Kolik hrudních obratlů má člověk?;12
+Kolik bederních obratlů má člověk?;5
+Jak se nazývá kost vzniklá srůstem křížových obratlů?;křížová kost
+Jak se nazývá zakončení páteře?;kostrč
+Jak se nazývá hrudní kost uprostřed hrudníku?;sternum|hrudní kost
+Kolik párů žeber má člověk?;12
+Jak se nazývají první sedm párů žeber?;pravá žebra
+Jak se nazývají poslední dva páry žeber?;volná žebra
+Které kosti tvoří ramenní pletenec?;lopatka|klíční kost
+Jak se nazývá kost mezi hrudní kostí a lopatkou?;klíční kost
+Jak se nazývá plochá kost na zádech?;lopatka
+Jak se nazývá kost paže?;pažní kost
+Jak se nazývá kost na straně palce předloktí?;vřetenní kost
+Jak se nazývá kost na straně malíku předloktí?;loketní kost
+Kolik kostí tvoří zápěstí?;8
+Jak se nazývají kosti dlaně?;záprstní kosti
+Jak se nazývají kosti prstů?;články
+Jak se nazývá nejdelší kost lidského těla?;stehenní kost
+Jak se nazývá kost před kolenním kloubem?;čéška
+Jak se nazývá větší kost bérce?;holenní kost
+Jak se nazývá menší kost bérce?;lýtková kost
+Kolik kostí tvoří kotník a zánártí?;7
+Jak se nazývají kosti nártu?;nártní kosti
+Jak se nazývají kosti prstů nohy?;články
+Jak se nazývá pánevní kost?;kyčelní kost
+Které tři části srůstají v pánevní kost?;kyčelní|sedací|stydká
+Jak se nazývá spojení dvou kostí?;kloub
+Čím jsou spojeny kosti v kloubu?;kloubním pouzdrem
+Co pokrývá konce kostí v kloubu?;chrupavka
+Jak se nazývá vaz spojující kost s kostí?;vaz
+Jak se nazývá tkáň, která tvoří kosti?;kostní tkáň
+Jak se nazývá měkká tkáň uvnitř některých kostí?;kostní dřeň
+Která minerální látka zpevňuje kosti?;vápník
+Jak se nazývá spojení kostí lebky?;šev
+Která kost chrání srdce a plíce spolu s žebry?;hrudní kost
+Jak se nazývá zakřivení páteře do stran?;skolióza
+Jak se nazývá přirozené prohnutí páteře dopředu v bederní oblasti?;lordóza
+Jak se nazývá přirozené prohnutí páteře dozadu v hrudní oblasti?;kyfóza
+Která kost tvoří patu?;patní kost
+Jak se nazývá kost v oblasti líc?;lícní kost
+Jak se nazývá kost oddělující nosní dutinu?;radličná kost
+Jak se nazývají drobné kosti ve středním uchu?;sluchové kůstky
+Která kost je součástí loketního kloubu a tvoří hrot lokte?;loketní kost
+Jak se nazývá kost mezi kyčlí a kolenem?;stehenní kost
+Jak se nazývá kost mezi kolenem a kotníkem na vnitřní straně?;holenní kost
+Jak se nazývá pohyblivé spojení kostí?;kloub
+Jak se nazývá pevné spojení kostí lebky?;šev
