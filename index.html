@@ -26,7 +26,9 @@
 <button id="startGame">Start hry</button><button id="pauseGame" class="secondary">Pauza</button><button id="nextQ" class="secondary">Přeskočit otázku</button><button id="reset" class="secondary">Nová hra</button>
 <button id="export">Export statistik CSV</button>
 </div></div></div>
-<div id="notice" class="status"></div><div id="gameEnded" class="game-ended" role="alert">🏁 HRA SKONČILA! 🏁</div><audio id="endSound" src="konec.mp3" preload="auto"></audio>
+<div id="notice" class="status"></div><div id="gameEnded" class="game-ended" role="alert">🏁 HRA SKONČILA! 🏁</div>
+<audio id="endSound" src="konec.mp3" preload="auto"></audio>
+<audio id="nextSound" src="dalsi.mp3" preload="auto"></audio>
 <div class="question" id="questionText">Čekám na otázku…</div>
 <div id="premium" class="small"></div><div id="timerDisplay" class="status" style="font-size:1.2rem;font-weight:800">Čas: —</div><div id="answerReveal" class="status hidden"></div>
 <div class="row"><div><label>Odpověď</label><input id="answer" placeholder="Napiš odpověď"><button id="submitAnswer">Odeslat odpověď</button></div><div><label>Stav odpovědi</label><div id="answerStatus" class="status">—</div></div></div>
@@ -79,7 +81,36 @@ async function finishCheck(id){let fresh=(await get(ref(db,`rooms/${roomId}/game
 async function loadQuestions(){if(!isTeacher)return;let f=$('questionFile').files[0];if(!f){alert('Vyber textový soubor s otázkami.');return}questions=parseQuestions(await f.text());if(!questions.length){alert('Soubor neobsahuje platné otázky.');return}await set(ref(db,`rooms/${roomId}/questionBank`),questions);questionIndex=0;alert('Načteno '+questions.length+' otázek.')}
 async function nextQuestion(){if(!isTeacher)return;let snap=await get(ref(db,`rooms/${roomId}/questionBank`));let qs=snap.val();if(!qs||!qs.length){alert('Nejprve načti otázky.');return}let g=(await get(ref(db,`rooms/${roomId}/game`))).val()||{};let idx=Number(g.questionIndex||0);if(idx>=qs.length){let board=g.board||Array(100).fill(-1),counts={};board.forEach(id=>{if(id>=0)counts[id]=(counts[id]||0)+1});let max=Math.max(0,...Object.values(counts)),winners=Object.keys(counts).filter(id=>counts[id]===max);await update(ref(db,`rooms/${roomId}/game`),{finished:true,winner:winners.length===1?winners[0]:null,phase:'finished'});return}let q=qs[idx],duration=Number($('questionSeconds').value||30)*1000;await update(ref(db,`rooms/${roomId}/game`),{question:q,questionIndex:idx+1,answered:{},correct:{},claimed:{},premiumWinner:null,started:true,finished:false,phase:'active',durationMs:duration,startedAt:Date.now(),remainingMs:duration,revealAnswer:false,pausedAt:null});}
 async function pauseResume(){if(!isTeacher||!roomData)return;let g=roomData.game||{};if(g.phase==='active'){let rem=Math.max(0,Number(g.durationMs||0)-(Date.now()-Number(g.startedAt||Date.now())));await update(ref(db,`rooms/${roomId}/game`),{phase:'paused',remainingMs:rem,pausedAt:Date.now()})}else if(g.phase==='paused'){let rem=Number(g.remainingMs||0);await update(ref(db,`rooms/${roomId}/game`),{phase:'active',startedAt:Date.now(),durationMs:rem,remainingMs:rem,pausedAt:null})}}
-async function endQuestion(){if(!isTeacher||autoAdvanceLock)return;autoAdvanceLock=true;try{let g=(await get(ref(db,`rooms/${roomId}/game`))).val()||{};if(g.phase!=='active')return;await update(ref(db,`rooms/${roomId}/game`),{phase:'reveal',remainingMs:0,revealAnswer:true});await new Promise(r=>setTimeout(r,5000));let fresh=(await get(ref(db,`rooms/${roomId}/game`))).val()||{};if(fresh.phase==='reveal'&&!fresh.finished)await nextQuestion()}finally{autoAdvanceLock=false}}
+async function endQuestion(){
+  if(!isTeacher||autoAdvanceLock)return;
+  autoAdvanceLock=true;
+
+  try{
+    let g=(await get(ref(db,`rooms/${roomId}/game`))).val()||{};
+    if(g.phase!=='active')return;
+
+    // Přehrát zvuk hned při vypršení času
+    const audio=$('nextSound');
+    audio.currentTime=0;
+    audio.play().catch(()=>{});
+
+    // Uzavřít otázku a zobrazit správnou odpověď
+    await update(ref(db,`rooms/${roomId}/game`),{
+      phase:'reveal',
+      remainingMs:0,
+      revealAnswer:true
+    });
+
+    // Nechat odpověď zobrazenou 5 sekund
+    await new Promise(r=>setTimeout(r,5000));
+
+    let fresh=(await get(ref(db,`rooms/${roomId}/game`))).val()||{};
+    if(fresh.phase==='reveal'&&!fresh.finished)await nextQuestion();
+
+  }finally{
+    autoAdvanceLock=false;
+  }
+}
 function timerTick(){
   if(!roomData)return;
   let g=roomData.game||{};
