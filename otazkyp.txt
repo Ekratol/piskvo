@@ -1,6 +1,5 @@
 Kolik kostí má dospělý člověk?;206
 Jak se nazývá kostra hlavy?;lebka
-Jaká kost chrání mozek?;lebka
 Jak se nazývá dolní čelist?;mandibula|dolní čelist
 Jak se nazývá horní čelist?;maxilla|horní čelist
 Která kost tvoří čelo?;čelní kost
