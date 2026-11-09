@@ -1,0 +1,60 @@
+Jak se nazývá základní stavební a funkční jednotka všech živých organismů?;Atom;Buňka;Tkáň;B
+Který vědec jako první pojmenoval „buňku“ na základě pozorování korku pod mikroskopem?;Robert Hooke;Louis Pasteur;Charles Darwin;A
+Organismy, jejichž tělo se skládá pouze z jedné jediné buňky, nazýváme:;Bezbuněčné;Jednobuněčné;Mnohobuněčné;B
+Které z následujících organismů patří mezi mnohobuněčné?;Bakterie;Trepka velká;Dub letní;C
+Jak se nazývá věda, která se zabývá studiem buněk?;Botanika;Zoologie;Cytologie (buněčná biologie);C
+Který přístroj je nezbytný pro pozorování většiny buněk?;Dalekohled;Mikroskop;Lupa;B
+Do jaké skupiny buněk patří buňka rostlin a živočichů (mají pravé jádro)?;Prokaryotické;Eukaryotické;Bateriální;B
+Co tvoří vnitřní polotekutý obsah buňky, ve kterém jsou uloženy organely?;Buněčná stěna;Cytoplazma;Jádro;B
+Jak se obecně nazývají malé vnitřní „orgány“ buňky, které mají specifické funkce?;Organely;Tkáně;Částice;A
+Které tvrzení o buňkách je PRAVDIVÉ?;Všechny buňky mají stejný tvar a velikost.;Živočišné buňky jsou obvykle větší než rostlinné.;Nové buňky vznikají dělením již existujících buněk.;C
+Která vrstva tvoří pevný vnější obal rostlinné buňky a dává jí tvar?;Plazmatická membrána;Buněčná stěna;Tonoplast;B
+Z jaké hlavní organické látky je složena buněčná stěna rostlin?;Z bílkovin;Z tuků;Z celulózy (buničiny);C
+Která organela v rostlinné buňce obsahuje buněčnou šťávu a u starších buněk zabírá většinu vnitřního prostoru?;Mitochondrie;Vakuola;Chloroplast;B
+Jak se nazývá zelené barvivo obsažené v chloroplastech?;Karoten;Chlorofyl;Hemoglobin;B
+Který životně důležitý děj probíhá v chloroplastech rostlin?;Dýchání;Fotosyntéza;Trávení;B
+Jakou barvu mají plastidy zvané leukoplasty, které slouží k ukládání zásobních látek?;Zelenou;Červenou;Bezbarvou / bílou;C
+Která organela v rostlinné buňce řídí veškeré buněčné děje a obsahuje DNA?;Jádro;Vakuola;Mitochondrie;A
+Jak se nazývá blána, která odděluje vnitřek vakuoly od cytoplazmy?;Buněčná stěna;Tonoplast;Jaderná membrána;B
+Co se stane s rostlinnou buňkou, když ztratí hodně vody z vakuoly?;Praskne;Zvětší se;Zvadne (buňka ztratí napětí);C
+Která z následujících částí je pro rostlinnou buňku zásobárnou vody a živin?;Jádro;Vakuola;Mitochondrie;B
+Co tvoří vnější povrch živočišné buňky (jelikož nemá buněčnou stěnu)?;Kutikula;Plazmatická membrána;Slizový obal;B
+Kterou z následujících struktur v živočišné buňce NIKDY nenajdeme?;Jádro;Mitochondrii;Chloroplast;C
+Mají živočišné buňky stálý a pevný tvar jako buňky rostlinné?;Ano, díky buněčné stěně.;Ne, jejich tvar je měkký a přizpůsobivý.;Ano, protože obsahují kostru z vápníku.;B
+Kde je v živočišné buňce uložena genetická informace (DNA)?;V cytoplazmě;V jádře;V lysozomech;B
+Jak se nazývají organely živočišné buňky, které obsahují trávicí enzymy?;Chloroplasty;Lysozomy;Vakuoly;B
+Nacházejí se u živočišných buněk velké centrální vakuoly?;Ano, u všech.;Ne, vakuoly buď chybí, nebo jsou velmi malé.;Ano, ale jsou naplněné chlorofylem.;B
+Co živočišná buňka jako zásobní látku netvoří?;Bílkoviny;Tuky;Škrob;C
+Která organela zajišťuje v živočišné buňce buněčné dýchání a výrobu energie?;Chloroplast;Jádro;Mitochondrie;C
+Plazmatická membrána živočišné buňky je polopropustná. Co to znamená?;Nepustí do buňky vůbec nic.;Propouští jen některé látky a jiné nepustí.;Propouští úplně všechno bez kontroly.;B
+Které zvíře má buňky s buněčnou stěnou?;Pes;Kapr;Žádné, živočišné buňky buněčnou stěnu nemají.;C
+Kterou organelu mají SPOLEČNOU rostlinná i živočišná buňka?;Chloroplast;Buněčnou stěnu;Jádro;C
+V čem se zásadně liší povrch rostlinné a živočišné buňky?;Rostlinná nemá žádný obal, živočišná má buněčnou stěnu.;Rostlinná má navíc buněčnou stěnu, živočišná má pouze plazmatickou membránu.;Živočišná buňka má tlustší obal než rostlinná.;B
+Proč živočišná buňka nemůže provádět fotosyntézu?;Nemá mitochondrie.;Nemá chloroplasty.;Má příliš málo vody.;B
+Která z těchto struktur zajišťuje pevnost stonků a listů rostlin?;Plazmatická membrána živočišných buněk;Buněčná stěna rostlinných buněk;Jádro obou buněk;B
+Které buňky jsou obvykle schopné měnit svůj tvar (např. bílá krvinka)?;Rostlinné buňky;Živočišné buňky;Buňky hub;B
+Vyber dvojici organel, které najdeme POUZE v rostlinné buňce (v porovnání se živočišnou):;Jádro a cytoplazma;Mitochondrie a membrána;Buněčná stěna a chloroplast;C
+Co mají z hlediska získávání energie společného mitochondrie v obou typech buněk?;Vyrábějí cukr ze slunce.;Spalují živiny za přítomnosti kyslíku a uvolňují energii.;Slouží jako odpadkový koš buňky.;B
+Když uvidíš v mikroskopu buňky naskládané vedle sebe jako pravidelné cihličky, o jakou buňku jde?;Živočišnou;Rostlinnou;Bakteriální;B
+Která složka chybí v živočišné buňce, což způsobuje, že živočichové musí přijímat potravu hotovou?;Jádro;Chloroplasty pro fotosyntézu;Mitochondrie pro dýchání;B
+Které tvrzení správně porovnává vakuoly?;Živočišná buňka má jednu obří vakuolu, rostlinná nemá žádnou.;Rostlinná buňka má velkou centrální vakuolu, živočišná mívá jen malé či dočasné vakuoly.;Obě buňky mají zcela identické vakuoly.;B
+Co vstupuje do chloroplastu jako hlavní suroviny pro fotosyntézu?;Kyslík a glukóza;Oxid uhličitý, voda a sluneční záření;Dusík a půda;B
+Co je hlavním produktem fotosyntézy, který rostlina využívá jako zdroj energie?;Oxid uhličitý;Glukóza (jednoduchý cukr);Voda;B
+Který plyn buňky spotřebovávají při buněčném dýchání v mitochondriích?;Oxid uhličitý;Dusík;Kyslík;C
+Která organela odpovídá za syntézu (tvorbu) bílkovin v buňce?;Vakuola;Ribozom;Lysozom;B
+Jak se nazývá síť membránových kanálků spojená s jádrem, která slouží k transportu látek v buňce?;Golgiho aparát;Endoplazmatické retikulum;Mitochondrie;B
+Která organela balí a upravuje látky vytvořené v buňce?;Jádro;Golgiho aparát;Centrozom;B
+Jak buňky vznikají?;Spojením atomů;Buněčným dělením;Z ničeho;B
+Co se stane s dědičnou informací (DNA) v jádře předtím, než se buňka rozdělí?;Zničí se.;Zdvojnásobí se (zkopíruje se), aby každá nová buňka měla celou sadu.;Polovina se ztratí.;B
+Proč rostliny uvolňují do ovzduší kyslík?;Je to odpadní produkt při fotosyntéze.;Potřebují se zbavit přebytečného dýchání.;Nasávají ho kořeny.;A
+Jak buňka získává energii, když nemá přístup ke světlu (např. kořeny rostlin)?;Nepotřebuje energii.;Pomocí buněčného dýchání v mitochondriích.;Provádí fotosyntézu potmě.;B
+Jak se nazývá stav, kdy má buňka dostatek vody a vakuola tlačí na buněčnou stěnu?;Turgor;Plazmolýza;Difuze;A
+Který typ buněk lidského těla obsahuje nejvíce mitochondrií, protože spotřebuje hodně energie?;Buňky kostní;Buňky svalové;Buňky pokožky;B
+Najdeme v buňkách hub (např. hřibu) chloroplasty?;Ano, proto rostou v lese.;Ne, houby nefotosyntetizují, živí se organickými látkami.;Pouze mladé houby mají chloroplasty.;B
+Co tvoří povrch buněk hub?;Buněčná stěna z chitinů;Buněčná stěna z celulózy;Pouze sliz;A
+Jak se nazývají útvary v jádře buňky, které se zviditelní během dělení a nesou geny?;Chromozomy;Leukoplasty;Výrůstky;A
+Která z těchto buněk nemá jádro vůbec (ztrácí ho během vývoje)?;Lidská červená krvinka;Lidská bílá krvinka;Nervová buňka;A
+Skupina buněk se stejným tvarem a funkcí se u živočichů nazývá:;Pletivo;Tkáň;Orgán;B
+Skupina buněk se stejným tvarem a funkcí se u ROSTLIN nazývá:;Pletivo;Tkáň;Orgánová soustava;A
+Proč živočišná buňka v čisté destilované vodě praskne, zatímco rostlinná buňka ne?;Živočišná buňka pije více vody.;Rostlinnou buňku ochrání pevná buněčná stěna.;Rostlinná buňka vodu odpuzuje.;B
+Které tvrzení nejlépe shrnuje hlavní rozdíl v životním stylu rostlin a živočichů na úrovni buněk?;Rostliny se pohybují, živočichové ne.;Rostliny si vyrábějí potravu samy (autotrofie), živočichové ji musí přijímat (heterotrofie).;Živočichové dýchají kyslík, rostliny kyslík vůbec nepotřebují.;B
